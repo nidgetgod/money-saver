@@ -163,7 +163,7 @@ const App: React.FC = () => {
       
       <footer className="bg-white border-t border-slate-200 mt-12 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center text-slate-400 text-sm">
-          <p>© 2024 SmartSaver. Best Deals in Taiwan.</p>
+          <p>© 2024 Money Saver. Best Deals in Taiwan.</p>
         </div>
       </footer>
     </div>

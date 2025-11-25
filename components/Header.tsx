@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, isLoading }) => {
               </svg>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-slate-900 leading-none">SmartSaver</h1>
+              <h1 className="text-xl font-bold text-slate-900 leading-none">Money Saver</h1>
               <p className="text-xs text-slate-500 font-medium">精選優惠彙整</p>
             </div>
           </div>

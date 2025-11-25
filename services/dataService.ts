@@ -2,8 +2,8 @@ import { DealItem } from "../types";
 
 export const fetchDeals = async (): Promise<DealItem[]> => {
   try {
-    // In a real GitHub Pages environment, this fetches relative to the root
-    const response = await fetch('/deals.json');
+    // Use relative path that works with Vite's base configuration
+    const response = await fetch('./deals.json');
     if (!response.ok) {
       throw new Error(`Failed to fetch deals: ${response.statusText}`);
     }
