@@ -40,7 +40,7 @@ export const DealCard: React.FC<DealCardProps> = ({ deal }) => {
       </h3>
 
       {/* Description */}
-      <p className="text-sm text-slate-500 mb-4 line-clamp-2 leading-relaxed">
+      <p className="text-sm text-slate-500 mb-4 line-clamp-2 leading-relaxed whitespace-pre-line">
           {deal.description}
       </p>
       
