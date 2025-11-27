@@ -514,5 +514,41 @@
     "category": "美食",
     "description": "雙人激省餐",
     "validPeriod": "即日起 - 2025/12/31 或售完為止"
+  },
+  {
+    "id": "MOS2025001",
+    "storeName": "摩斯漢堡 MOS BURGER",
+    "productName": "超級大麥元氣牛肉珍珠堡",
+    "couponCode": "",
+    "originalPrice": 285,
+    "discountPrice": 259,
+    "condition": "供應時間10:30AM後",
+    "category": "美食",
+    "description": "MOS 青年大滿足",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
+  },
+  {
+    "id": "MOS2025002",
+    "storeName": "摩斯漢堡 MOS BURGER",
+    "productName": "和風蔬活牛肉堡",
+    "couponCode": "",
+    "originalPrice": 270,
+    "discountPrice": 239,
+    "condition": "供應時間10:30AM後",
+    "category": "美食",
+    "description": "MOS 青年大滿足",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
+  },
+  {
+    "id": "MOS2025003",
+    "storeName": "摩斯漢堡 MOS BURGER",
+    "productName": "超級大麥薑燒珍珠堡",
+    "couponCode": "",
+    "originalPrice": 245,
+    "discountPrice": 219,
+    "condition": "供應時間10:30AM後",
+    "category": "美食",
+    "description": "MOS 青年大滿足",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   }
 ]
