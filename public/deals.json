@@ -1,6 +1,6 @@
 [
   {
-    "dealId": "MCD2025P01",
+    "id": "MCD2025P01",
     "storeName": "麥當勞 McDonald's",
     "productName": "四盎司牛肉堡x2件",
     "couponCode": "P01",
@@ -9,10 +9,10 @@
     "condition": "供應時段為上午10:30後",
     "category": "美食",
     "description": "經典雙享$99起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025P02",
+    "id": "MCD2025P02",
     "storeName": "麥當勞 McDonald's",
     "productName": "原味麥脆鷄腿x2塊",
     "couponCode": "P02",
@@ -21,10 +21,10 @@
     "condition": "供應時段為上午10:30後",
     "category": "美食",
     "description": "經典雙享$99起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025P03",
+    "id": "MCD2025P03",
     "storeName": "麥當勞 McDonald's",
     "productName": "6塊麥克鷄塊x2件",
     "couponCode": "P03",
@@ -33,10 +33,10 @@
     "condition": "",
     "category": "美食",
     "description": "經典雙享$99起\n早安雙享$59起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025P05",
+    "id": "MCD2025P05",
     "storeName": "麥當勞 McDonald's",
     "productName": "辣味麥脆鷄腿x2塊",
     "couponCode": "P05",
@@ -45,10 +45,10 @@
     "condition": "供應時段為上午10:30後",
     "category": "美食",
     "description": "經典雙享$99起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025P06",
+    "id": "MCD2025P06",
     "storeName": "麥當勞 McDonald's",
     "productName": "大薯x2件",
     "couponCode": "P06",
@@ -57,10 +57,10 @@
     "condition": "供應時段為上午10:30後",
     "category": "美食",
     "description": "經典雙享$99起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025P07",
+    "id": "MCD2025P07",
     "storeName": "麥當勞 McDonald's",
     "productName": "豬肉滿福堡x2件",
     "couponCode": "P07",
@@ -69,10 +69,10 @@
     "condition": "供應時段為上午10:30前",
     "category": "美食",
     "description": "早安雙享$59起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025P08",
+    "id": "MCD2025P08",
     "storeName": "麥當勞 McDonald's",
     "productName": "現烤焙果x2件",
     "couponCode": "P08",
@@ -81,10 +81,10 @@
     "condition": "供應時段為上午10:30前",
     "category": "美食",
     "description": "早安雙享$59起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025P09",
+    "id": "MCD2025P09",
     "storeName": "麥當勞 McDonald's",
     "productName": "薯餅x2件",
     "couponCode": "P09",
@@ -93,10 +93,10 @@
     "condition": "供應時段為上午10:30前",
     "category": "美食",
     "description": "早安雙享$59起",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025A10",
+    "id": "MCD2025A10",
     "storeName": "麥當勞 McDonald's",
     "productName": "中杯可口可樂 買1送1",
     "couponCode": "A10",
@@ -105,10 +105,10 @@
     "condition": "",
     "category": "美食",
     "description": "飲品買一送一",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025A11",
+    "id": "MCD2025A11",
     "storeName": "麥當勞 McDonald's",
     "productName": "中杯可口可樂zero 買1送1",
     "couponCode": "A11",
@@ -117,10 +117,10 @@
     "condition": "",
     "category": "美食",
     "description": "飲品買一送一",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025A12",
+    "id": "MCD2025A12",
     "storeName": "麥當勞 McDonald's",
     "productName": "中杯雪碧  買1送1",
     "couponCode": "A12",
@@ -129,10 +129,10 @@
     "condition": "",
     "category": "美食",
     "description": "飲品買一送一",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025A13",
+    "id": "MCD2025A13",
     "storeName": "麥當勞 McDonald's",
     "productName": "中杯檸檬風味紅茶(冰) 買1送1",
     "couponCode": "A13",
@@ -141,10 +141,10 @@
     "condition": "",
     "category": "美食",
     "description": "飲品買一送一",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025A14",
+    "id": "MCD2025A14",
     "storeName": "麥當勞 McDonald's",
     "productName": "焦糖奶茶(冰) 買1送1",
     "couponCode": "A14",
@@ -153,10 +153,10 @@
     "condition": "",
     "category": "美食",
     "description": "飲品買一送一",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025A15",
+    "id": "MCD2025A15",
     "storeName": "麥當勞 McDonald's",
     "productName": "金選美式咖啡 (熱) 買1送1",
     "couponCode": "A15",
@@ -165,10 +165,10 @@
     "condition": "",
     "category": "美食",
     "description": "飲品買一送一",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025A16",
+    "id": "MCD2025A16",
     "storeName": "麥當勞 McDonald's",
     "productName": "金選美式咖啡 (冰) 買1送1",
     "couponCode": "A16",
@@ -177,10 +177,10 @@
     "condition": "",
     "category": "美食",
     "description": "飲品買一送一",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025F17",
+    "id": "MCD2025F17",
     "storeName": "麥當勞 McDonald's",
     "productName": "雙層牛+麥香鷄",
     "couponCode": "F17",
@@ -189,10 +189,10 @@
     "condition": "",
     "category": "美食",
     "description": "雙人雙享$209起\n雙層牛肉吉事堡+麥香鷄+4塊麥克鷄塊+中薯+2杯$38飲品",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025F18",
+    "id": "MCD2025F18",
     "storeName": "麥當勞 McDonald's",
     "productName": "勁辣鷄+勁辣鷄",
     "couponCode": "F18",
@@ -201,10 +201,10 @@
     "condition": "",
     "category": "美食",
     "description": "雙人雙享$209起\n勁辣鷄腿堡+勁辣鷄腿堡+4塊麥克鷄塊+中薯+2杯$38飲品",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025F19",
+    "id": "MCD2025F19",
     "storeName": "麥當勞 McDonald's",
     "productName": "大麥克+雙層牛",
     "couponCode": "F19",
@@ -213,10 +213,10 @@
     "condition": "",
     "category": "美食",
     "description": "雙人雙享$209起\n大麥克 +雙層牛肉吉事堡+4塊麥克鷄塊+中薯+2杯$38飲品",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "MCD2025F20",
+    "id": "MCD2025F20",
     "storeName": "麥當勞 McDonald's",
     "productName": "大麥克+勁辣鷄",
     "couponCode": "F20",
@@ -225,282 +225,294 @@
     "condition": "",
     "category": "美食",
     "description": "雙人雙享$209起\n大麥克+勁辣鷄腿堡+4塊麥克鷄塊+中薯+2杯$38飲品",
-    "validPeriod": "2025/11/5 - 2025/12/9"
+    "validPeriod": "2025/11/5 - 2025/12/9 或售完為止"
   },
   {
-    "dealId": "BK2025P0519",
+    "id": "BK2025P0519",
     "storeName": "漢堡王 Burger King",
     "productName": "四塊雞塊+1元多一件",
     "couponCode": "P0519",
     "originalPrice": 110,
     "discountPrice": 56,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "加$1多1件",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0520",
+    "id": "BK2025P0520",
     "storeName": "漢堡王 Burger King",
     "productName": "辣薯球(小)+1元多一件",
     "couponCode": "P0520",
     "originalPrice": 98,
     "discountPrice": 50,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "加$1多1件",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0521",
+    "id": "BK2025P0521",
     "storeName": "漢堡王 Burger King",
     "productName": "洋蔥圈(小)+1元多1件",
     "couponCode": "P0521",
     "originalPrice": 98,
     "discountPrice": 50,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "加$1多1件",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0522",
+    "id": "BK2025P0522",
     "storeName": "漢堡王 Burger King",
     "productName": "薯條(小)+1元多一件",
     "couponCode": "P0522",
     "originalPrice": 98,
     "discountPrice": 50,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "加$1多1件",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0523",
+    "id": "BK2025P0523",
     "storeName": "漢堡王 Burger King",
     "productName": "中杯飲料+1元多一件",
     "couponCode": "P0523",
     "originalPrice": 76,
     "discountPrice": 39,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "加$1多1件",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0536",
+    "id": "BK2025P0536",
     "storeName": "漢堡王 Burger King",
     "productName": "經典脆雞堡+BBQ培根牛肉堡",
     "couponCode": "P0536",
     "originalPrice": 163,
     "discountPrice": 99,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙堡超值組",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0618",
+    "id": "BK2025P0618",
+    "storeName": "漢堡王 Burger King",
+    "productName": "華鱈魚堡+經典脆雞堡",
+    "couponCode": "P0618",
+    "originalPrice": 148,
+    "discountPrice": 99,
+    "condition": "一般門店優惠券/折價券",
+    "category": "美食",
+    "description": "雙堡超值組",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
+  },
+  {
+    "id": "BK2025P0618",
     "storeName": "漢堡王 Burger King",
     "productName": "經典脆雞堡+華鱈魚堡",
     "couponCode": "P0525",
     "originalPrice": 148,
     "discountPrice": 99,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙堡超值組",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0526",
+    "id": "BK2025P0526",
     "storeName": "漢堡王 Burger King",
     "productName": "雙層火烤牛肉堡+雙層小華堡(原/辣)",
     "couponCode": "P0526",
     "originalPrice": 248,
     "discountPrice": 149,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙堡超值組",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0528",
+    "id": "BK2025P0528",
     "storeName": "漢堡王 Burger King",
     "productName": "Q彈海老牛肉堡+經典脆雞堡",
     "couponCode": "P0528",
-    "originalPrice": 263,
+    "originalPrice": 218,
     "discountPrice": 159,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙堡超值組",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0527",
+    "id": "BK2025P0527",
     "storeName": "漢堡王 Burger King",
     "productName": "美式花生雙層脆雞堡+雙層火烤牛肉堡",
     "couponCode": "P0527",
     "originalPrice": 233,
     "discountPrice": 159,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙堡超值組",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0623",
+    "id": "BK2025P0623",
     "storeName": "漢堡王 Burger King",
     "productName": "兩堡任選自由配",
     "couponCode": "P0623",
     "originalPrice": 238,
     "discountPrice": 129,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "兩堡任選自由配",
-    "validPeriod": ""
+    "description": "兩堡任選自由配\n洋蔥圈烤牛堡、小華堡(原/辣)、花生培根脆雞堡、花生培根牛肉堡",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0619",
+    "id": "BK2025P0619",
     "storeName": "漢堡王 Burger King",
     "productName": "雙起士牛肉堡+4塊雞塊+小薯+中飲",
     "couponCode": "P0619",
     "originalPrice": 221,
     "discountPrice": 109,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "單人滿足餐\n雙起士牛肉堡 x 1\n雞塊（4塊） x 1\n小薯條 x 1\n冰微糖紅茶（中） x 1 (正常冰)",
-    "validPeriod": ""
+    "description": "單人滿足餐",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0437",
+    "id": "BK2025P0437",
     "storeName": "漢堡王 Burger King",
     "productName": "花生培根脆雞堡+小薯+4塊雞塊+中飲",
     "couponCode": "P0437",
     "originalPrice": 226,
     "discountPrice": 119,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "漢堡王優惠券｜花生培根脆雞堡+4塊雞塊+小薯+中杯飲料：酥脆雞排與香濃花生醬組成的獨家美味，配薯條、雞塊與飲料，不吃牛也可以吃得很療癒！",
-    "validPeriod": ""
+    "description": "單人滿足餐",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0480",
+    "id": "BK2025P0480",
     "storeName": "漢堡王 Burger King",
     "productName": "花生培根牛肉堡+小薯+4塊雞塊+中飲",
     "couponCode": "P0480",
-    "originalPrice": 286,
+    "originalPrice": 241,
     "discountPrice": 129,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "漢堡王優惠券｜花生培根牛肉堡+小薯+4塊雞塊+中杯飲料：原汁滿滿的烤牛肉與花生醬的鹹甜獨家美味，配薯條、雞塊與飲料，療癒系組合推薦！",
-    "validPeriod": ""
+    "description": "單人滿足餐",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0575",
+    "id": "BK2025P0575",
     "storeName": "漢堡王 Burger King",
     "productName": "雙起士培根牛肉堡+小薯+四塊雞塊+中飲",
     "couponCode": "P0575",
     "originalPrice": 241,
     "discountPrice": 129,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "單人滿足餐\n雙起士培根牛堡 x 1\n小薯條 x 1\n雞塊（4塊） x 1\n可樂（中） x 1 (正常冰)",
-    "validPeriod": ""
+    "description": "單人滿足餐",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0478",
+    "id": "BK2025P0478",
     "storeName": "漢堡王 Burger King",
     "productName": "小華堡(原/辣)+小薯+4塊雞塊+中飲",
     "couponCode": "P0478",
     "originalPrice": 261,
     "discountPrice": 139,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "漢堡王優惠券｜小華堡+小薯+4塊雞塊+中杯飲料：份量剛好的小華堡，仍每口都吃得到100%純牛肉火烤香氣，搭配小薯、4塊雞塊與飲料超滿足！",
-    "validPeriod": ""
+    "description": "單人滿足餐",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0621",
+    "id": "BK2025P0621",
     "storeName": "漢堡王 Burger King",
     "productName": "雙層火烤牛肉堡+4塊雞塊+小薯+中飲",
     "couponCode": "P0621",
     "originalPrice": 251,
     "discountPrice": 139,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "單人滿足餐\n雙層火烤牛肉堡 x 1\n小薯條 x 1\n雞塊（4塊） x 1\n冰微糖紅茶（中） x 1 (正常冰)",
-    "validPeriod": ""
+    "description": "單人滿足餐",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0589",
+    "id": "BK2025P0589",
     "storeName": "漢堡王 Burger King",
-    "productName": "1+1 69元",
+    "productName": "1+1 自由配 $69",
     "couponCode": "P0589",
     "originalPrice": 154,
     "discountPrice": 69,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
-    "description": "1+1 自由配$69",
-    "validPeriod": ""
+    "description": "1+1 自由配 $69\n7 選 1 + 5 選 1",
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0622",
+    "id": "BK2025P0622",
     "storeName": "漢堡王 Burger King",
     "productName": "經典脆雞堡+華鱈魚堡+4塊雞塊+小薯+中飲*2",
     "couponCode": "P0622",
     "originalPrice": 328,
     "discountPrice": 189,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙人激省餐",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0557",
+    "id": "BK2025P0557",
     "storeName": "漢堡王 Burger King",
     "productName": "花生培根脆雞堡+花生培根牛肉堡+4塊雞塊+小薯+中飲x2",
     "couponCode": "P0557",
-    "originalPrice": 408,
+    "originalPrice": 363,
     "discountPrice": 199,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙人激省餐",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0615",
+    "id": "BK2025P0615",
     "storeName": "漢堡王 Burger King",
     "productName": "雙層火烤牛肉堡+雙起士培根牛肉堡+4塊雞塊+小薯+中飲*2",
     "couponCode": "P0615",
     "originalPrice": 388,
     "discountPrice": 219,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙人激省餐",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0616",
+    "id": "BK2025P0616",
     "storeName": "漢堡王 Burger King",
     "productName": "勁濃安格斯牛肉堡+安格斯厚切牛肉堡+小薯+中飲*2",
     "couponCode": "P0616",
     "originalPrice": 435,
     "discountPrice": 259,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙人激省餐",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "dealId": "BK2025P0617",
+    "id": "BK2025P0617",
     "storeName": "漢堡王 Burger King",
     "productName": "皇家華堡(原/辣)+皇家華堡(原/辣)+中飲*2",
     "couponCode": "P0617",
     "originalPrice": 364,
     "discountPrice": 259,
-    "condition": "",
+    "condition": "一般門店優惠券/折價券",
     "category": "美食",
     "description": "雙人激省餐",
-    "validPeriod": ""
+    "validPeriod": "即日起 - 2025/12/31 或售完為止"
   }
 ]
