@@ -516,39 +516,75 @@
     "validPeriod": "即日起 - 2025/12/31 或售完為止"
   },
   {
-    "id": "MOS2025001",
+    "id": "MOS2025SAT01",
     "storeName": "摩斯漢堡 MOS BURGER",
-    "productName": "超級大麥元氣牛肉珍珠堡",
+    "productName": "超級大麥元氣牛肉珍珠堡+摩斯雞塊(6個)+方塊薯餅(3個)+抹茶紅豆米派+冰紅茶(L)",
     "couponCode": "",
     "originalPrice": 285,
     "discountPrice": 259,
-    "condition": "供應時間10:30AM後",
+    "condition": "供應時段為上午10:30後",
     "category": "美食",
     "description": "MOS 青年大滿足",
-    "validPeriod": "即日起 - 2025/12/31 或售完為止"
+    "validPeriod": "2025/11/1 - 2025/12/31 或售完為止"
   },
   {
-    "id": "MOS2025002",
+    "id": "MOS2025SAT02",
     "storeName": "摩斯漢堡 MOS BURGER",
-    "productName": "和風蔬活牛肉堡",
+    "productName": "和風蔬活牛肉堡+摩斯雞塊(6個)+方塊薯餅(3個)+抹茶紅豆米派+冰紅茶(L)",
     "couponCode": "",
     "originalPrice": 270,
     "discountPrice": 239,
-    "condition": "供應時間10:30AM後",
+    "condition": "供應時段為上午10:30後",
     "category": "美食",
     "description": "MOS 青年大滿足",
-    "validPeriod": "即日起 - 2025/12/31 或售完為止"
+    "validPeriod": "2025/11/1 - 2025/12/31 或售完為止"
   },
   {
-    "id": "MOS2025003",
+    "id": "MOS2025SAT03",
     "storeName": "摩斯漢堡 MOS BURGER",
-    "productName": "超級大麥薑燒珍珠堡",
+    "productName": "超級大麥薑燒珍珠堡+摩斯雞塊(6個)+方塊薯餅(3個)+抹茶紅豆米派+冰紅茶(L)",
     "couponCode": "",
     "originalPrice": 245,
     "discountPrice": 219,
-    "condition": "供應時間10:30AM後",
+    "condition": "供應時段為上午10:30後",
     "category": "美食",
     "description": "MOS 青年大滿足",
-    "validPeriod": "即日起 - 2025/12/31 或售完為止"
+    "validPeriod": "2025/11/1 - 2025/12/31 或售完為止"
+  },
+  {
+    "id": "MOS2025NOV01",
+    "storeName": "摩斯漢堡 MOS BURGER",
+    "productName": "玉子珍珠堡+冰紅茶(L)",
+    "couponCode": "",
+    "originalPrice": 95,
+    "discountPrice": 79,
+    "condition": "供應時段為上午5:00 - 10:30",
+    "category": "美食",
+    "description": "11月感恩回饋(上半月限定)",
+    "validPeriod": "2025/11/1 - 2025/11/15 或售完為止"
+  },
+  {
+    "id": "MOS2025NOV02",
+    "storeName": "摩斯漢堡 MOS BURGER",
+    "productName": "超級大麥海洋珍珠堡+冰紅茶(L)",
+    "couponCode": "",
+    "originalPrice": 125,
+    "discountPrice": 99,
+    "condition": "供應時段為上午10:30後",
+    "category": "美食",
+    "description": "11月感恩回饋(下半月限定)",
+    "validPeriod": "2025/11/16 - 2025/11/30 或售完為止"
+  },
+  {
+    "id": "MOS2025NOV03",
+    "storeName": "摩斯漢堡 MOS BURGER",
+    "productName": "抹茶紅豆米派+冰紅茶(L)",
+    "couponCode": "",
+    "originalPrice": 85,
+    "discountPrice": 69,
+    "condition": "",
+    "category": "美食",
+    "description": "11月感恩回饋(全月優惠)",
+    "validPeriod": "2025/11/1 - 2025/11/30 或售完為止"
   }
 ]
