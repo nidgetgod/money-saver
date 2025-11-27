@@ -586,5 +586,113 @@
     "category": "美食",
     "description": "11月感恩回饋(全月優惠)",
     "validPeriod": "2025/11/1 - 2025/11/30 或售完為止"
+  },
+  {
+    "id": "COSTCO1518239",
+    "storeName": "好市多 Costco",
+    "productName": "TRUE INNOVATIONS 電競椅",
+    "couponCode": "",
+    "originalPrice": 4439,
+    "discountPrice": 3539,
+    "condition": "僅限好市多線上購物",
+    "category": "家具",
+    "description": "尺寸約: 71x70x114-123公分",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO1366494",
+    "storeName": "好市多 Costco",
+    "productName": "0.5克拉鑽石項鍊",
+    "couponCode": "",
+    "originalPrice": 24999,
+    "discountPrice": 19999,
+    "condition": "僅限好市多線上購物",
+    "category": "珠寶",
+    "description": "14K白K金 VS2/I",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO155071",
+    "storeName": "好市多 Costco",
+    "productName": "ELECTROLUX 伊萊克斯 45公分獨立式洗碗機",
+    "couponCode": "",
+    "originalPrice": 23999,
+    "discountPrice": 18999,
+    "condition": "僅限好市多線上購物",
+    "category": "家電",
+    "description": "EFS3060VWB",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO112832",
+    "storeName": "好市多 Costco",
+    "productName": "HOYACASA 雙人蠶絲冬被 (Silk Comforter)",
+    "couponCode": "",
+    "originalPrice": 4899,
+    "discountPrice": 3919,
+    "condition": "僅限好市多線上購物",
+    "category": "寢具",
+    "description": "尺寸約: 180x210公分",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO153286",
+    "storeName": "好市多 Costco",
+    "productName": "BOSCH 10公斤洗衣機+9公斤乾衣機組合",
+    "couponCode": "",
+    "originalPrice": 77999,
+    "discountPrice": 65499,
+    "condition": "僅限好市多線上購物",
+    "category": "家電",
+    "description": "WGA15200TC+WQB245B0TC",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO137504",
+    "storeName": "好市多 Costco",
+    "productName": "DOCTORAIR 3D 按摩紓壓椅墊 (3D Massage Seat)",
+    "couponCode": "",
+    "originalPrice": 3085,
+    "discountPrice": 2465,
+    "condition": "僅限好市多線上購物",
+    "category": "家電",
+    "description": "LITE MS03",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO1783055",
+    "storeName": "好市多 Costco",
+    "productName": "GILMAN CREEK 牛皮電動躺椅",
+    "couponCode": "",
+    "originalPrice": 11499,
+    "discountPrice": 9099,
+    "condition": "僅限好市多線上購物",
+    "category": "家具",
+    "description": "尺寸約: 83x96x101公分",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO146964",
+    "storeName": "好市多 Costco",
+    "productName": "BARISTA 西雅圖 雙焙濃拿鐵三合一",
+    "couponCode": "",
+    "originalPrice": 615,
+    "discountPrice": 485,
+    "condition": "僅限好市多線上購物",
+    "category": "美食",
+    "description": "每包21公克 x 80包入",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
+  },
+  {
+    "id": "COSTCO149471",
+    "storeName": "好市多 Costco",
+    "productName": "TCL 12公斤直立式洗衣機",
+    "couponCode": "",
+    "originalPrice": 9999,
+    "discountPrice": 7999,
+    "condition": "僅限好市多線上購物",
+    "category": "家電",
+    "description": "P312TLG",
+    "validPeriod": "2025/12/1 - 2025/12/7 或售完為止"
   }
 ]
