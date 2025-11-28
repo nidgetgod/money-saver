@@ -1,5 +1,17 @@
 [
   {
+    "id": "WATSONSBP_243716",
+    "storeName": "屈臣氏 Watsons",
+    "productName": "露得清 Neutrogena 露得清挪威身體潤膚乳液450ml【強效保濕】",
+    "couponCode": "",
+    "originalPrice": 399,
+    "discountPrice": 87.56,
+    "condition": "2件7折，3件5折",
+    "category": "臉部保養,保養,乳液 / 乳霜",
+    "description": "來自挪威的強效保濕秘訣。使用99%純度的高濃縮甘油。只要一滴。即可擁有一整天的保濕彈潤",
+    "validPeriod": "2025-11-27 - 2025-12-30 或售完為止"
+  },我的心機 高效安瓶EX瞬效亮白細緻眼膜(5對入)
+  {
     "id": "MCD2025P01",
     "storeName": "麥當勞 McDonald's",
     "productName": "四盎司牛肉堡x2件",
@@ -2421,18 +2433,6 @@
     "condition": "2件7折，3件5折",
     "category": "臉部保養,清潔,洗顏慕斯",
     "description": "茶樹萃取搭配法定抗荳成分繖花醇有效洗淨毛孔頑固髒汙吸出油脂淡化黯沉提亮肌膚。",
-    "validPeriod": "2025-11-27 - 2025-12-30 或售完為止"
-  },
-  {
-    "id": "WATSONSBP_189812",
-    "storeName": "屈臣氏 Watsons",
-    "productName": "My Scheming 我的心機 我的心機 高效安瓶EX瞬效亮白細緻眼膜(5對入)",
-    "couponCode": "",
-    "originalPrice": 299,
-    "discountPrice": 131.56,
-    "condition": "2件7折，3件5折",
-    "category": "臉部保養,面膜,眼膜",
-    "description": "添加煥白細緻因子SymWhite 377 X Brightenyl有效淡化黑眼圈勻亮膚色。",
     "validPeriod": "2025-11-27 - 2025-12-30 或售完為止"
   },
   {
