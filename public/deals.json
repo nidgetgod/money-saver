@@ -302,18 +302,6 @@
   {
     "id": "BK2025P0618",
     "storeName": "漢堡王 Burger King",
-    "productName": "華鱈魚堡+經典脆雞堡",
-    "couponCode": "P0618",
-    "originalPrice": 148,
-    "discountPrice": 99,
-    "condition": "一般門店優惠券/折價券",
-    "category": "美食",
-    "description": "雙堡超值組",
-    "validPeriod": "即日起 - 2025/12/31 或售完為止"
-  },
-  {
-    "id": "BK2025P0618",
-    "storeName": "漢堡王 Burger King",
     "productName": "經典脆雞堡+華鱈魚堡",
     "couponCode": "P0525",
     "originalPrice": 148,
