@@ -68,10 +68,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               onChange={(e) => onDiscountChange(Number(e.target.value))}
             >
               <option value={0}>不限折扣</option>
-              <option value={10}>10% OFF 以上</option>
-              <option value={30}>30% OFF 以上</option>
-              <option value={50}>50% OFF 以上</option>
-              <option value={70}>70% OFF 以上</option>
+              <option value={10}>省 10% 以上</option>
+              <option value={30}>省 30% 以上</option>
+              <option value={50}>省 50% 以上</option>
+              <option value={70}>省 70% 以上</option>
             </select>
           </div>
         </div>
