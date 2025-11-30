@@ -165,6 +165,12 @@ const App: React.FC = () => {
       <footer className="mt-12 py-8 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4 text-center text-slate-400 text-sm">
           <p>© 2025 Money Saver.</p>
+          <div className="mt-4 text-xs text-slate-500 max-w-4xl mx-auto">
+            <p className="font-bold mb-2">免責聲明</p>
+            <p>
+            本網站所提供之優惠資訊（包含但不限於價格、折扣內容、活動期間）僅供參考。 實際活動內容與使用規範皆以各商家官方公告為準。 本網站將盡力維護資訊之正確性，但不保證所有資訊均為即時更新或完全無誤。 對於因使用本網站資訊所生之任何直接或間接損害，本網站不負任何法律責任。
+            </p>
+          </div>
         </div>
       </footer>
     </div>
