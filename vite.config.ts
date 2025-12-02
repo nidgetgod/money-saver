@@ -73,16 +73,33 @@ export default defineConfig(({ mode }) => {
             theme_color: '#fff0fc',
             background_color: '#f0fcff',
             display: 'standalone',
+            orientation: 'portrait',
             start_url: '/',
             scope: '/',
+            id: '/',
             icons: [
               {
                 src: '/favicon.svg',
                 sizes: 'any',
                 type: 'image/svg+xml',
-                purpose: 'any maskable'
+                purpose: 'any'
+              },
+              {
+                src: '/favicon.svg',
+                sizes: '192x192',
+                type: 'image/svg+xml',
+                purpose: 'maskable'
+              },
+              {
+                src: '/favicon.svg',
+                sizes: '512x512',
+                type: 'image/svg+xml',
+                purpose: 'any'
               }
-            ]
+            ],
+            categories: ['shopping', 'finance', 'lifestyle'],
+            screenshots: [],
+            prefer_related_applications: false
           },
           devOptions: {
             enabled: true,
