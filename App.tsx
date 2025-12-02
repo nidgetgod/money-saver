@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { Header } from './components/Header';
 import { DealCard } from './components/DealCard';
 import { FilterBar } from './components/FilterBar';
@@ -11,7 +11,7 @@ const App: React.FC = () => {
   // Loading & Error states
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  
+
   // Search Query State
   const [searchQuery, setSearchQuery] = useState<string>('');
 
@@ -19,6 +19,10 @@ const App: React.FC = () => {
   const [categoryFilter, setCategoryFilter] = useState<string>('All');
   const [storeFilter, setStoreFilter] = useState<string>('All');
   const [minDiscountFilter, setMinDiscountFilter] = useState<number>(0);
+
+  // Lazy Load State
+  const [displayCount, setDisplayCount] = useState<number>(24);
+  const loaderRef = useRef<HTMLDivElement>(null);
 
   // Initial Data Load
   useEffect(() => {
@@ -39,12 +43,15 @@ const App: React.FC = () => {
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);
-    
+
     // Reset filters when a new search is performed to ensure results are seen
     if (query) {
       setCategoryFilter('All');
       setStoreFilter('All');
     }
+
+    // Reset display count when search changes
+    setDisplayCount(24);
   };
 
   // Derived Data for Filters
@@ -61,7 +68,7 @@ const App: React.FC = () => {
     return allDeals.filter(deal => {
       // 1. Text Search Filter (Client side filtering)
       const query = searchQuery.toLowerCase().trim();
-      const matchesSearch = query === '' || 
+      const matchesSearch = query === '' ||
         deal.productName.toLowerCase().includes(query) ||
         deal.storeName.toLowerCase().includes(query) ||
         deal.description.toLowerCase().includes(query);
@@ -69,7 +76,7 @@ const App: React.FC = () => {
       // 2. Dropdown Filters
       const matchesCategory = categoryFilter === 'All' || deal.category === categoryFilter;
       const matchesStore = storeFilter === 'All' || deal.storeName === storeFilter;
-      
+
       const savings = deal.originalPrice - deal.discountPrice;
       const discountPercent = (savings / deal.originalPrice) * 100;
       const matchesDiscount = discountPercent >= minDiscountFilter;
@@ -78,11 +85,52 @@ const App: React.FC = () => {
     });
   }, [allDeals, searchQuery, categoryFilter, storeFilter, minDiscountFilter]);
 
+  // Reset display count when filters change
+  useEffect(() => {
+    setDisplayCount(24);
+  }, [categoryFilter, storeFilter, minDiscountFilter]);
+
+  // Get displayed deals (limited by displayCount)
+  const displayedDeals = useMemo(() => {
+    return filteredDeals.slice(0, displayCount);
+  }, [filteredDeals, displayCount]);
+
+  // Load more function
+  const loadMore = useCallback(() => {
+    if (displayCount < filteredDeals.length) {
+      setDisplayCount(prev => prev + 24);
+    }
+  }, [displayCount, filteredDeals.length]);
+
+  // Intersection Observer for lazy loading
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && displayCount < filteredDeals.length) {
+          loadMore();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    const currentLoader = loaderRef.current;
+    if (currentLoader) {
+      observer.observe(currentLoader);
+    }
+
+    return () => {
+      if (currentLoader) {
+        observer.unobserve(currentLoader);
+      }
+    };
+  }, [loadMore, displayCount, filteredDeals.length]);
+
   const handleResetFilters = async () => {
     setCategoryFilter('All');
     setStoreFilter('All');
     setMinDiscountFilter(0);
     setSearchQuery('');
+    setDisplayCount(24);
   };
 
   return (
@@ -154,11 +202,27 @@ const App: React.FC = () => {
                 </button>
             </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredDeals.map((deal) => (
-              <DealCard key={deal.id} deal={deal} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {displayedDeals.map((deal) => (
+                <DealCard key={deal.id} deal={deal} />
+              ))}
+            </div>
+
+            {/* Loader for Intersection Observer */}
+            {displayCount < filteredDeals.length && (
+              <div ref={loaderRef} className="flex justify-center py-8">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-slate-800"></div>
+              </div>
+            )}
+
+            {/* Show total count info */}
+            {displayCount >= filteredDeals.length && filteredDeals.length > 24 && (
+              <div className="text-center py-6 text-slate-500">
+                已顯示全部 {filteredDeals.length} 筆優惠
+              </div>
+            )}
+          </>
         )}
       </main>
       
