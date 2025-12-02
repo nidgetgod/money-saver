@@ -11,14 +11,27 @@ const App: React.FC = () => {
   // Loading & Error states
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  
+
+  // Initialize state from URL parameters
+  const getInitialFiltersFromURL = () => {
+    const params = new URLSearchParams(window.location.search);
+    return {
+      searchQuery: params.get('search') || '',
+      categoryFilter: params.get('category') || 'All',
+      storeFilter: params.get('store') || 'All',
+      minDiscountFilter: parseInt(params.get('discount') || '0', 10)
+    };
+  };
+
+  const initialFilters = getInitialFiltersFromURL();
+
   // Search Query State
-  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchQuery, setSearchQuery] = useState<string>(initialFilters.searchQuery);
 
   // Filter States
-  const [categoryFilter, setCategoryFilter] = useState<string>('All');
-  const [storeFilter, setStoreFilter] = useState<string>('All');
-  const [minDiscountFilter, setMinDiscountFilter] = useState<number>(0);
+  const [categoryFilter, setCategoryFilter] = useState<string>(initialFilters.categoryFilter);
+  const [storeFilter, setStoreFilter] = useState<string>(initialFilters.storeFilter);
+  const [minDiscountFilter, setMinDiscountFilter] = useState<number>(initialFilters.minDiscountFilter);
 
   // Initial Data Load
   useEffect(() => {
@@ -36,6 +49,32 @@ const App: React.FC = () => {
     };
     loadData();
   }, []);
+
+  // Sync filters to URL parameters
+  useEffect(() => {
+    const params = new URLSearchParams();
+
+    // Only add parameters that are not default values
+    if (searchQuery) {
+      params.set('search', searchQuery);
+    }
+    if (categoryFilter && categoryFilter !== 'All') {
+      params.set('category', categoryFilter);
+    }
+    if (storeFilter && storeFilter !== 'All') {
+      params.set('store', storeFilter);
+    }
+    if (minDiscountFilter > 0) {
+      params.set('discount', minDiscountFilter.toString());
+    }
+
+    // Update URL without reloading the page
+    const newUrl = params.toString()
+      ? `${window.location.pathname}?${params.toString()}`
+      : window.location.pathname;
+
+    window.history.replaceState({}, '', newUrl);
+  }, [searchQuery, categoryFilter, storeFilter, minDiscountFilter]);
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);
