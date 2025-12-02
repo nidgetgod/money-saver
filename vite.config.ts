@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
 
     return {
-      base: '/money-saver/',
+      base: '/',
       server: {
         port: 3000,
         host: '0.0.0.0',
@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => {
         react(),
         VitePWA({
           registerType: 'autoUpdate',
-          base: '/money-saver/',
+          base: '/',
           workbox: {
             globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
             navigateFallback: null,
@@ -73,11 +73,11 @@ export default defineConfig(({ mode }) => {
             theme_color: '#fff0fc',
             background_color: '#f0fcff',
             display: 'standalone',
-            start_url: '/money-saver/',
-            scope: '/money-saver/',
+            start_url: '/',
+            scope: '/',
             icons: [
               {
-                src: '/money-saver/favicon.svg',
+                src: '/favicon.svg',
                 sizes: 'any',
                 type: 'image/svg+xml',
                 purpose: 'any maskable'
