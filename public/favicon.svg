@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#fff0fc" rx="128"/>
+  <g transform="translate(256, 256)">
+    <!-- Money symbol background circle -->
+    <circle cx="0" cy="0" r="160" fill="#f0fcff" stroke="#ff69b4" stroke-width="12"/>
+
+    <!-- Dollar sign -->
+    <path d="M -20 -100 L -20 -60 C -60 -60 -80 -40 -80 -10 C -80 20 -60 40 -20 40 L 20 40 C 40 40 50 50 50 70 C 50 90 40 100 20 100 L -20 100 L -40 100 C -60 100 -80 90 -80 70"
+          fill="none" stroke="#ff1493" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 0 -120 L 0 120"
+          fill="none" stroke="#ff1493" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Sparkles -->
+    <circle cx="120" cy="-80" r="8" fill="#ffd700"/>
+    <circle cx="-100" cy="90" r="8" fill="#ffd700"/>
+    <circle cx="110" cy="100" r="6" fill="#ffd700"/>
+  </g>
+</svg>
