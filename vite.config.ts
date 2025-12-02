@@ -16,8 +16,10 @@ export default defineConfig(({ mode }) => {
         react(),
         VitePWA({
           registerType: 'autoUpdate',
+          base: '/money-saver/',
           workbox: {
             globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+            navigateFallback: null,
             runtimeCaching: [
               {
                 urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
