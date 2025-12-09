@@ -36,7 +36,18 @@ export const DealCard: React.FC<DealCardProps> = ({ deal }) => {
 
       {/* Title */}
       <h3 className="text-lg font-bold text-slate-800 mb-2 leading-snug">
-          {deal.productName}
+          {deal.productLink ? (
+            <a
+              href={deal.productLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-pink-600 transition-colors duration-200 underline decoration-pink-200 hover:decoration-pink-400 decoration-2 underline-offset-2"
+            >
+              {deal.productName}
+            </a>
+          ) : (
+            deal.productName
+          )}
       </h3>
 
       {/* Description */}

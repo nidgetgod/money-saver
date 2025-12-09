@@ -2,6 +2,7 @@ export interface DealItem {
   id: string;
   storeName: string;
   productName: string;
+  productLink: string | null;
   couponCode: string | null;
   originalPrice: number;
   discountPrice: number;
