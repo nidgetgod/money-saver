@@ -7,6 +7,7 @@ const mockDeal: DealItem = {
   id: 'TEST001',
   storeName: '測試商店',
   productName: '測試產品',
+  productLink: null,
   couponCode: 'TEST123',
   originalPrice: 100,
   discountPrice: 80,
@@ -112,5 +113,27 @@ describe('DealCard', () => {
     expect(screen.getByText('NT$10,000')).toBeInTheDocument();
     expect(screen.getByText('NT$8,500')).toBeInTheDocument();
     expect(screen.getByText('-15%')).toBeInTheDocument();
+  });
+
+  it('renders product name as plain text when productLink is null', () => {
+    render(<DealCard deal={mockDeal} />);
+
+    const productName = screen.getByText('測試產品');
+    expect(productName).toBeInTheDocument();
+    expect(productName.tagName).not.toBe('A');
+  });
+
+  it('renders product name as clickable link when productLink is provided', () => {
+    const dealWithLink = {
+      ...mockDeal,
+      productLink: 'https://example.com/product',
+    };
+    render(<DealCard deal={dealWithLink} />);
+
+    const productLink = screen.getByText('測試產品').closest('a');
+    expect(productLink).toBeInTheDocument();
+    expect(productLink).toHaveAttribute('href', 'https://example.com/product');
+    expect(productLink).toHaveAttribute('target', '_blank');
+    expect(productLink).toHaveAttribute('rel', 'noopener noreferrer');
   });
 });
