@@ -136,4 +136,19 @@ describe('DealCard', () => {
     expect(productLink).toHaveAttribute('target', '_blank');
     expect(productLink).toHaveAttribute('rel', 'noopener noreferrer');
   });
+
+  it('renders product name as plain text when productLink is undefined (backward compatibility)', () => {
+    // Simulate old JSON data without productLink field
+    const dealWithoutProductLinkField = {
+      ...mockDeal,
+    };
+    // @ts-expect-error - Intentionally removing productLink to test backward compatibility
+    delete dealWithoutProductLinkField.productLink;
+
+    render(<DealCard deal={dealWithoutProductLinkField as DealItem} />);
+
+    const productName = screen.getByText('測試產品');
+    expect(productName).toBeInTheDocument();
+    expect(productName.tagName).not.toBe('A');
+  });
 });
