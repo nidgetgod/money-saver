@@ -25,10 +25,21 @@ export const DealCard: React.FC<DealCardProps> = ({ deal }) => {
 
   // Prepare chart data
   const chartData = useMemo(() => {
-    return priceHistory.map(entry => ({
-      date: new Date(entry.date).toLocaleDateString('zh-TW', { month: 'short', day: 'numeric' }),
-      價格: entry.discountPrice
-    }));
+    return priceHistory.map(entry => {
+      try {
+        const date = new Date(entry.date);
+        return {
+          date: date.toLocaleDateString('zh-TW', { month: 'short', day: 'numeric' }),
+          價格: entry.discountPrice
+        };
+      } catch (error) {
+        console.error('Error formatting date:', entry.date, error);
+        return {
+          date: entry.date,
+          價格: entry.discountPrice
+        };
+      }
+    });
   }, [priceHistory]);
 
   const handleCopy = () => {

@@ -11,8 +11,8 @@
 - Recharts 3.4.1 (data visualization)
 
 **Deployment:**
-- GitHub Pages (automatic deployment via GitHub Actions)
-- Production URL: `https://nidgetgod.github.io/money-saver/`
+- Custom Domain (automatic deployment via GitHub Actions)
+- Production URL: `https://plantchosen.com`
 
 ---
 
