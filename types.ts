@@ -1,3 +1,9 @@
+export interface PriceHistoryEntry {
+  date: string;
+  price: number;
+  discountPrice: number;
+}
+
 export interface DealItem {
   id: string;
   storeName: string;
@@ -9,6 +15,7 @@ export interface DealItem {
   category: DealCategory;
   description: string;
   validPeriod: string;
+  priceHistory?: PriceHistoryEntry[];
 }
 
 export enum DealCategory {
