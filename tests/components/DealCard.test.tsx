@@ -98,7 +98,8 @@ describe('DealCard', () => {
     render(<DealCard deal={dealWithoutCoupon} />);
 
     expect(screen.getByText('無需優惠碼')).toBeInTheDocument();
-    expect(screen.queryByRole('button')).not.toBeInTheDocument();
+    // Should not have a copy button, but may have other buttons like "查看詳情"
+    expect(screen.queryByText(mockDeal.couponCode!)).not.toBeInTheDocument();
   });
 
   it('handles large price values correctly', () => {
